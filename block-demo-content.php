@@ -1,11 +1,14 @@
 <?php
 /**
+ * Custom block
+ *
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-05-18 09:14:17
+ * @Last Modified time: 2021-05-18 10:58:12
+ *
+ * @package air-light
  */
-
 ?>
 
 <section class="block block-entry-header-demo has-dark-bg">
