@@ -41,6 +41,7 @@ add_filter( 'theme_file_path', function( $path, $file ) {
 
 // Add demo CSS
 add_action( 'wp_head', 'demo_css' );
+add_action( 'admin_head', 'demo_css' );
 
 function demo_css() { ?>
 <style type="text/css">
@@ -403,14 +404,14 @@ body .block.block-entry-header-demo {
   background-image: url("https://airwptheme.com/demo/content/themes/air-light/svg/external-link-black.svg");
 }
 
-.site-main .component {
+body .component {
   border: 1px dashed var(--color-heliotrope);
   padding: 19px;
   margin-right: 4rem;
   margin-bottom: 4rem;
 }
 
-.site-main .component .component-label {
+body .component .component-label {
   color: var(--color-heliotrope);
   font-size: 12px;
   position: absolute;
@@ -418,7 +419,7 @@ body .block.block-entry-header-demo {
   margin-left: -20px;
 }
 
-.site-main .component .component-label::before {
+body .component .component-label::before {
   background-image: url("https://airwptheme.com/demo/figma-component.svg");
   background-repeat: no-repeat;
   content: "";
@@ -428,13 +429,13 @@ body .block.block-entry-header-demo {
   margin-right: 5px;
 }
 
-.site-main .component p {
+body .component p {
   display: flex;
   align-items: center;
   margin: 0 0 2rem;
 }
 
-.site-main .component p:last-child {
+body .component p:last-child {
   margin-bottom: 0;
 }
 </style>
