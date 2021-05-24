@@ -4,7 +4,7 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 0.0.3
+ * Version: 0.0.4
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
@@ -313,12 +313,13 @@ body .block.block-entry-header-demo {
   }
 }
 
-.block.block-entry-header-demo + .block .container {
-  max-width: 800px;
-}
-
 .block.block-entry-header-demo + .block .container.gutenberg-content {
   max-width: 100%;
+}
+
+.block.block-entry-header-demo + .block .container.gutenberg-content > *:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .block.block-blog article,

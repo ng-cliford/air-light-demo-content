@@ -1,3 +1,7 @@
+### 0.0.4: 2021-05-24
+
+* Fix some style issues on demo page
+
 ### 0.0.3: 2021-05-24
 
 * Fix the hook name
