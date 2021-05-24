@@ -1,3 +1,7 @@
+### 0.0.5: 2021-05-24
+
+* Fix plane size
+
 ### 0.0.4: 2021-05-24
 
 * Fix some style issues on demo page
