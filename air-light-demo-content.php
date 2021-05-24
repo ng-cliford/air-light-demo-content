@@ -22,7 +22,7 @@
  * @package air-light
  */
 
-add_filter( 'air_helper_theme_settings', function( $settings ) {
+add_filter( 'air_light_theme_settings', function( $settings ) {
   $settings['acf_blocks'][] = [
     'name'      => 'demo-content',
     'title'     => 'Demo content',
