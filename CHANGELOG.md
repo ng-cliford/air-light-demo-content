@@ -1,3 +1,7 @@
+### 0.0.6: 2021-05-29
+
+* Various mobile fixes
+
 ### 0.0.5: 2021-05-24
 
 * Fix plane size

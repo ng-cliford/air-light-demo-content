@@ -4,7 +4,7 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 0.0.5
+ * Version: 0.0.6
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
@@ -123,6 +123,13 @@ body .block.block-entry-header-demo {
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  body .block.block-entry-header-demo {
+    height: auto;
+    padding: 0;
+  }
+}
+
 @media (min-width: 480px) {
   .block.block-entry-header-demo {
     min-height: 60rem;
@@ -149,8 +156,13 @@ body .block.block-entry-header-demo {
   justify-items: center;
   padding: 2rem;
   max-width: 1200px;
-  margin-top: 140px;
-  margin-bottom: 80px;
+  margin-top: calc(var(--height-navigation-mobile) / 2);
+}
+
+@media (max-width: 500px) {
+  .block.block-entry-header-demo .inner {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 770px) {
@@ -241,6 +253,12 @@ body .block.block-entry-header-demo {
   }
 }
 
+@media (max-width: 800px) {
+  .block.block-entry-header-demo .logo svg {
+    max-width: 20rem;
+  }
+}
+
 @media (max-width: 480px) {
   .block.block-entry-header-demo .logo svg {
     max-width: 15rem;
@@ -274,6 +292,24 @@ body .block.block-entry-header-demo {
   .block.block-entry-header-demo .heading-hero {
     padding: 2rem 4rem;
     text-align: left;
+  }
+}
+
+@media (max-width: 800px) {
+  .block.block-entry-header-demo .heading-hero {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 500px) {
+  .block.block-entry-header-demo .heading-hero {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .block.block-entry-header-demo .heading-hero {
+    font-size: 28px;
   }
 }
 
