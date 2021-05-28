@@ -1,3 +1,7 @@
+### 0.0.7: 2021-05-29
+
+* Fix demo content heading margin
+
 ### 0.0.6: 2021-05-29
 
 * Various mobile fixes

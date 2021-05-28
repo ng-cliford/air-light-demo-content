@@ -353,7 +353,7 @@ body .block.block-entry-header-demo {
   max-width: 100%;
 }
 
-.block.block-entry-header-demo + .block .container.gutenberg-content > *:first-of-type {
+.block.block-entry-header-demo + .block .container.gutenberg-content > p:first-of-type {
   margin-top: 0;
   padding-top: 0;
 }
@@ -397,6 +397,8 @@ body .block.block-entry-header-demo {
 
 .heading-demo {
   margin-top: 6rem;
+  margin-bottom: 2.7rem;
+  padding-bottom: 0;
 }
 
 .link-demo {
