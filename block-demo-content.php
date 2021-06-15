@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-05-28 10:15:00
+ * @Last Modified time: 2021-06-15 09:27:49
  *
  * @package air-light
  */
@@ -127,8 +127,8 @@
     <!-- wp:list -->
     <ul>
     <li>This is ul list item</li>
-    <li>This is ul list item</li>
-    <li>This is ul list item</li>
+    <li>This is a long ul list item. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis fringilla purus, sed feugiat mauris tincidunt ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi mauris risus, auctor vel congue et, euismod non mauris.</li>
+    <li>This is even longer list item with links in it. <a href="https://www.google.com">External link</a> lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis fringilla purus, sed feugiat mauris tincidunt ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi mauris risus, <a href="https://airwptheme.com/demo">internal link</a> vel congue et, euismod non mauris.</li>
     </ul>
     <!-- /wp:list -->
 

@@ -1,3 +1,7 @@
+### 0.0.8: 2021-06-15
+
+* Add examples of long list items
+
 ### 0.0.7: 2021-05-29
 
 * Fix demo content heading margin
