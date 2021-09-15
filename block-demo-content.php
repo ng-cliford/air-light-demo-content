@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-06-15 09:27:49
+ * @Last Modified time: 2021-09-02 10:42:10
  *
  * @package air-light
  */
@@ -33,7 +33,7 @@
     <!-- /wp:paragraph -->
 
     <!-- wp:paragraph -->
-    <p>This page contains components from Air-light and some Gutenberg default block previews. Sample Gutenberg article preview can be viewed <a href="https://airwptheme.com/demo/2021/04/05/sample-gutenberg-post/">here</a>.</p>
+    <p>This page contains components from Air-light and some Gutenberg default block previews. Sample Gutenberg article preview can be viewed <a href="https://airwptheme.com/demo/2021/04/05/sample-gutenberg-post/">here</a>. This is a link with target="_blank": <a href="https://www.dude.fi" target="_blank">Link text</a>.</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:heading {"level":1} -->

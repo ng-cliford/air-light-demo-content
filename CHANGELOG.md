@@ -1,3 +1,9 @@
+### 0.0.9: 2021-09-15
+
+* Validate HTML, fix exactly the following reports
+* Warning: The "type" attribute for the "style" element is not needed and should be omitted
+* Error: CSS: "fill": "var(--color-baby-blue)" is not a valid color 3 or 6 hexadecimals numbers
+
 ### 0.0.8: 2021-06-15
 
 * Add examples of long list items

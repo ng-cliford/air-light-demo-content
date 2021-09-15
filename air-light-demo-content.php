@@ -4,7 +4,7 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 0.0.8
+ * Version: 0.0.9
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
@@ -17,7 +17,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:27:24
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-06-15 09:29:42
+ * @Last Modified time: 2021-09-15 14:37:42
  *
  * @package air-light
  */
@@ -44,7 +44,7 @@ add_action( 'wp_head', 'demo_css' );
 add_action( 'admin_head', 'demo_css' );
 
 function demo_css() { ?>
-<style type="text/css">
+<style>
 :root {
   --color-wild-blue-yonder: #737fbf;
   --color-baby-blue: #60f4ea;
@@ -74,7 +74,7 @@ body .site-header .site-title svg {
 }
 
 body .site-header .site-title .clr-i-solid-path-2 {
-  fill: var(--color-white);
+  fill: #fff;
 }
 
 body .site-header .site-title a {
@@ -97,7 +97,7 @@ body .site-header .site-title a:hover svg {
 
 body .site-header .site-title a:hover svg .clr-i-solid-path-2 {
   display: block !important;
-  fill: var(--color-baby-blue);
+  fill: #60f4ea;
 }
 
 body .site-header .site-title .logo-name {
