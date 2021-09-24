@@ -1,4 +1,4 @@
-### 1.0.0: 2021-09-24
+### 1.0.1: 2021-09-24
 
 * Rename gutenberg-content to article-content according to [Air-light 7.9.0](https://github.com/digitoimistodude/air-light/releases/tag/7.9.0)
 
