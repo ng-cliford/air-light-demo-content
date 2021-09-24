@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-09-02 10:42:10
+ * @Last Modified time: 2021-09-24 10:21:14
  *
  * @package air-light
  */
@@ -26,7 +26,7 @@
 </section>
 
 <section class="block has-light-bg">
-  <div class="container gutenberg-content">
+  <article class="container article-content">
 
     <!-- wp:paragraph -->
     <p>You are viewing the demo of <a href="https://www.dude.fi">Digitoimisto Dude Oy's</a> starter theme called <b>Air-light</b> (or air in short). Please go to <a href="https://github.com/digitoimistodude">Dude's GitHub</a> to learn more or <a href="https://github.com/digitoimistodude/air">download the theme</a>.</p>
@@ -194,5 +194,5 @@
     </table>
     <!-- /wp:table -->
 
-  </div>
+  </article>
 </section>
