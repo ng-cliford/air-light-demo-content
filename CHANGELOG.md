@@ -1,3 +1,7 @@
+### 1.0.2: 2021-11-04
+
+* Support for new link component in Air-light 8.1.0
+
 ### 1.0.1: 2021-09-24
 
 * Rename gutenberg-content to article-content according to [Air-light 7.9.0](https://github.com/digitoimistodude/air-light/releases/tag/7.9.0)

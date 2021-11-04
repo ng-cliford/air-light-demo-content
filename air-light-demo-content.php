@@ -4,7 +4,7 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 0.0.9
+ * Version: 1.0.1
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
@@ -402,34 +402,26 @@ body .block.block-entry-header-demo {
 }
 
 .link-demo {
-  border-bottom: 1px solid var(--color-link-border-bottom);
-  box-shadow: inset 0 0 0 var(--color-link-background-hover);
   color: var(--color-link-text);
-  display: inline;
-  text-decoration: none;
-  transition: box-shadow .1s cubic-bezier(.19, 1, .22, 1), color .1s cubic-bezier(.19, 1, .22, 1);
+  display: inline !important;
+  text-decoration: underline;
+  text-decoration-color: var(--color-link-text);
+  text-underline-offset: 6px;
+  transition: all .18s ease-in-out;
 }
 
 .link-demo::after {
   background-image: url("https://airwptheme.com/demo/content/themes/air-light/svg/external-link-styled-links.svg");
 }
 
+.link-demo:focus,
 .link-demo:hover {
-  border-color: transparent;
-  box-shadow: inset 0 -3.3rem 0 var(--color-link-background-hover);
   color: var(--color-link-text-hover);
+  text-decoration-color: var(--color-link-text-hover);
 }
 
 .link-demo:hover::after {
-  background-image: url("https://airwptheme.com/demo/content/themes/air-light/svg/external-link-white.svg");
-}
-
-.link-demo:focus {
-  background-color: transparent;
-  border-color: var(--color-link-border-focus);
-  box-shadow: none;
-  color: var(--color-link-text-focus);
-  text-decoration: none;
+  background-image: url("https://airwptheme.com/demo/content/themes/air-light/svg/external-link-black.svg");
 }
 
 @media (prefers-reduced-motion: no-preference) {
