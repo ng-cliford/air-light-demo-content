@@ -1,3 +1,7 @@
+### 1.0.4: 2022-02-08
+
+* Fix mobile styles for demo content.
+
 ### 1.0.3: 2022-02-08
 
 * Add demo styles for container-less and hero-less Air-light 8.3.1.
