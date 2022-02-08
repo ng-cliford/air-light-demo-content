@@ -4,7 +4,7 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
@@ -17,7 +17,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:27:24
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-09-15 14:37:42
+ * @Last Modified time: 2022-02-08 17:08:22
  *
  * @package air-light
  */
@@ -469,5 +469,72 @@ body .component p {
 body .component p:last-child {
   margin-bottom: 0;
 }
+
+/* Fix article-content styles for demo pages without hero block */
+.block.block-single .article-content {
+  padding-top: calc( 5rem + var(--padding-block) );
+}
+
+/* Add article-content styles for demo pages
+   as they do not have Gutenberg blocks, only classic editor */
+body.page:not(.home) .site-main {
+  max-width: 100%;
+  padding-bottom: var(--padding-block);
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: calc( 5rem + var(--padding-block) );
+}
+
+/* Faux "Gutenberg-magic" */
+body.page:not(.home) .site-main > * {
+  line-height: var(--line-height-paragraphs-blog);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+/* core-list.css */
+body.page:not(.home) .site-main > ol:not([class]),
+body.page:not(.home) .site-main > ul:not([class]) {
+  list-style: none;
+  padding-left: 0;
+  width: calc((100% - calc(var(--padding-container-horizontal) * 2)));
+}
+
+body.page:not(.home) .site-main > ol:not([class]) li,
+body.page:not(.home) .site-main > ul:not([class]) li {
+  display: table-row;
+  padding: 0;
+}
+
+body.page:not(.home) .site-main > ul:not([class]) li::before {
+  display: table-cell;
+  content: '\2022';
+  padding-right: .8rem;
+}
+
+body.page:not(.home) .site-main > ol:not([class]) {
+  counter-reset: ol;
+}
+
+body.page:not(.home) .site-main > ol:not([class]) li {
+  counter-increment: ol;
+}
+
+body.page:not(.home) .site-main > ol:not([class]) li::before {
+  content: counter(ol) '.';
+  padding-right: .3rem;
+}
+
+body.page:not(.home) .site-main > ol:not([class]) li::before,
+body.page:not(.home) .site-main > ul:not([class]) li::before,
+body.page:not(.home) .site-main > ol:not([class]) li::marker,
+body.page:not(.home) .site-main > ul:not([class]) li::marker {
+  color: var(--color-link-text);
+}
+
 </style>
 <?php }
