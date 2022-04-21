@@ -1,3 +1,7 @@
+### 1.0.5: 2022-04-21
+
+* Fix z-index bug with cssnano on Air-light 8.3.7
+
 ### 1.0.4: 2022-02-08
 
 * Fix mobile styles for demo content.

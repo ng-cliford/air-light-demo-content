@@ -242,7 +242,6 @@ body .block.block-entry-header-demo {
   animation: plane 5s cubic-bezier(.86, 0, .07, 1) 1s infinite;
   animation-delay: -5s;
   position: relative;
-  z-index: 6;
 }
 
 @media screen and (prefers-reduced-motion: reduce), (update: slow) {
@@ -283,7 +282,7 @@ body .block.block-entry-header-demo {
   margin: 0;
   padding: 2rem;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   text-align: center;
   line-height: 1.23;
 }
@@ -324,7 +323,7 @@ body .block.block-entry-header-demo {
   color: var(--color-wild-blue-yonder);
   display: block;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media (min-width: 960px) {
