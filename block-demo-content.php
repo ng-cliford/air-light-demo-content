@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2021-09-24 10:21:14
+ * @Last Modified time: 2022-05-12 14:12:37
  *
  * @package air-light
  */
@@ -30,10 +30,6 @@
 
     <!-- wp:paragraph -->
     <p>You are viewing the demo of <a href="https://www.dude.fi">Digitoimisto Dude Oy's</a> starter theme called <b>Air-light</b> (or air in short). Please go to <a href="https://github.com/digitoimistodude">Dude's GitHub</a> to learn more or <a href="https://github.com/digitoimistodude/air">download the theme</a>.</p>
-    <!-- /wp:paragraph -->
-
-    <!-- wp:paragraph -->
-    <p>This page contains components from Air-light and some Gutenberg default block previews. Sample Gutenberg article preview can be viewed <a href="https://airwptheme.com/demo/2021/04/05/sample-gutenberg-post/">here</a>. This is a link with target="_blank": <a href="https://www.dude.fi" target="_blank">Link text</a>.</p>
     <!-- /wp:paragraph -->
 
     <!-- wp:heading {"level":1} -->
