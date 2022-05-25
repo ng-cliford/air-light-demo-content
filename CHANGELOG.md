@@ -1,3 +1,8 @@
+### 2.0.1: 2022-05-25
+
+* Fix typo in variable
+* Fix button links
+
 ### 2.0.0: 2022-05-25
 
 * Add phpcs.xml
