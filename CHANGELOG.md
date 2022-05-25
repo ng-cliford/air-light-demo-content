@@ -1,3 +1,7 @@
+### 1.0.7: 2022-05-25
+
+* Add phpcs.xml
+
 ### 1.0.6: 2022-05-12
 
 * Remove link to non-existing page
