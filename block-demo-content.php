@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-05-25 22:32:29
+ * @Last Modified time: 2022-05-25 22:45:04
  *
  * @package air-light
  */
@@ -27,13 +27,9 @@
 
             <p>This demo has custom blocks enabled, but air-light doesn't ship with them. You'll need to build your blocks yourself.</p>
 
-            <ul class="multiple-buttons-wrapper">
-              <a class="button" href="https://airwptheme.com">
-                Features
-              </a>
-
-              <a class="button" href="https://blocks.airwptheme.com">
-                Block library
+            <p class="button-wrapper">
+              <a class="button button-large" href="https://airwptheme.com">
+                See all features
               </a>
             </ul>
           </div>
@@ -85,7 +81,7 @@
           <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-brand-twitter: <span class="color" style="background-color: #1da1f2"></span> #1da1f2</li>
           <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-pattens-blue: <span class="color" style="background-color: #eaf1f8;"></span> #eaf1f8;</li>
           <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-science-blue: <span class="color" style="background-color: #0049d1;"></span> #0049d1;</li>
-          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-scropion: <span class="color" style="background-color: #5f5f5f;"></span> #5f5f5f;</li>
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-scorpion: <span class="color" style="background-color: #5f5f5f;"></span> #5f5f5f;</li>
           <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-valhalla: <span class="color" style="background-color: #2a2d3e;"></span> #2a2d3e;</li>
         </ul>
       </div>
@@ -189,7 +185,7 @@
     <h2 class="has-text-gradient">...and more. But still less.</h2>
     <p>Air-light light weights only under 20 KB gzipped and is accessible-ready, gutenberg-ready and multilingual-ready.</p>
     <p class="button-wrapper">
-      <a class="button no-external-link-indicator has-icon" href="https://docs.airwptheme.com/air-blocks/block-library">
+      <a class="button no-external-link-indicator has-icon" href="https://airwptheme.com">
         Check out all the features
       </a>
     </p>

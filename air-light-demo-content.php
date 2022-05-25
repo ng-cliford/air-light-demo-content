@@ -294,6 +294,7 @@ body .site {
   object-position: top center;
 }
 
+.site-main .block-hero-big-image .container .button-wrapper .button,
 .site-main .block-demo-centered .container .button {
   font-size: var(--font-size-16);
   max-width: 100%;
