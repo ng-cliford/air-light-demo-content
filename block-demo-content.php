@@ -5,13 +5,12 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-05-25 18:52:43
+ * @Last Modified time: 2022-05-25 19:57:01
  *
  * @package air-light
  */
 
 ?>
-
 <section class="block block-hero-big-image">
   <div class="image has-lazyload" aria-hidden="true">
       <img loading="lazy" alt="A decorative picture about ferris wheel" src="https://blocks.airwptheme.com/media/bruno-abatti-Xzer0SqKPEE-unsplash.jpeg">

@@ -104,6 +104,10 @@ body {
   background: var(--color-background-site);
 }
 
+.nav-container::after {
+  display: none !important;
+}
+
 a.nav-link.is-external-link::after {
   background: transparent url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%209%209%22%3E%3Cpath%20d%3D%22M4.499%201.497h4v4m0-4l-7%207%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22%23000%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') no-repeat 0 0;
 }

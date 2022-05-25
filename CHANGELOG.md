@@ -3,6 +3,7 @@
 * Add phpcs.xml
 * Completely rewrite demo blocks
 * Completely rewrite new styles for demo site
+* Hide air-light "Start building here" placeholder on demo
 
 ### 1.0.6: 2022-05-12
 
