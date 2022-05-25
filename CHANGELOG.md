@@ -1,6 +1,8 @@
-### 1.0.7: 2022-05-25
+### 2.0.0: 2022-05-25
 
 * Add phpcs.xml
+* Completely rewrite demo blocks
+* Completely rewrite new styles for demo site
 
 ### 1.0.6: 2022-05-12
 

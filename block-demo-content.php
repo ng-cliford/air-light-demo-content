@@ -5,28 +5,202 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-05-25 14:41:04
+ * @Last Modified time: 2022-05-25 18:52:43
  *
  * @package air-light
  */
 
 ?>
 
-<section class="block block-entry-header-demo has-dark-bg">
-  <div class="inner">
-    <div class="logo">    
-      <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m231.75 383.5h-160c-4.143 0-7.5-3.357-7.5-7.5s3.357-7.5 7.5-7.5h160c17.921 0 32.5-14.579 32.5-32.5 0-4.143 3.357-7.5 7.5-7.5s7.5 3.357 7.5 7.5c0 26.191-21.309 47.5-47.5 47.5z" fill="#cee9f8"/><path d="m302.067 495.499c-12.888 0-27.4-6.631-29.558-19.347-.692-4.084 2.057-7.956 6.141-8.648 4.093-.688 7.957 2.058 8.648 6.141.756 4.464 11.153 8.006 18.444 6.507 8.005-1.649 15.638-10.895 14.556-23.511-.354-4.127 2.705-7.76 6.832-8.113 4.114-.353 7.76 2.704 8.113 6.832 1.781 20.758-12.012 40.139-33.176 40.139z" fill="#cee9f8"/><path d="m284.77 209.157c-14.364-2.962-33.763 3.964-36.261 18.69-.692 4.084 2.057 7.956 6.141 8.648 4.093.697 7.957-2.058 8.648-6.141.73-4.313 10.932-8.057 18.444-6.507 7.947 1.637 15.516 10.764 14.568 23.239-.036.3-.061.603-.061.912 0 13.51-14.579 24.5-32.5 24.5h-160c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h160c25.88 0 46.978-17.304 47.476-38.727 1.845-17.656-8.773-35.971-26.455-39.614z" fill="#a1d7f3"/><path d="m71.75 272.5h-64c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h64c4.143 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" fill="#a1d7f3"/><path d="m327.75 463.5c-4.143 0-7.5-3.357-7.5-7.5 0-13.51-14.579-24.5-32.5-24.5h-280c-4.143 0-7.5-3.357-7.5-7.5s3.357-7.5 7.5-7.5h280c26.191 0 47.5 17.72 47.5 39.5 0 4.143-3.358 7.5-7.5 7.5z" fill="#cee9f8"/><path d="m135.75 351.5h-64c-4.143 0-7.5-3.357-7.5-7.5s3.357-7.5 7.5-7.5h64c4.687 0 8.5-3.813 8.5-8.5 0-4.143 3.357-7.5 7.5-7.5s7.5 3.357 7.5 7.5c0 12.958-10.542 23.5-23.5 23.5z" fill="#cee9f8"/><path d="m207.75 503.5c-4.143 0-7.5-3.357-7.5-7.5 0-17.921-14.579-32.5-32.5-32.5h-160c-4.143 0-7.5-3.357-7.5-7.5s3.357-7.5 7.5-7.5h160c26.191 0 47.5 21.309 47.5 47.5 0 4.143-3.358 7.5-7.5 7.5z" fill="#a1d7f3"/><path d="m87.75 511.5c-4.143 0-7.5-3.357-7.5-7.5 0-4.687-3.813-8.5-8.5-8.5h-64c-4.143 0-7.5-3.357-7.5-7.5s3.357-7.5 7.5-7.5h64c12.958 0 23.5 10.542 23.5 23.5 0 4.143-3.358 7.5-7.5 7.5z" fill="#a1d7f3"/><path d="m486.573 265.371c-27.91-22.154-63.959-17.878-78.164-15.012-3.135.633-5.591 3.071-6.247 6.201-2.933 13.997-7.309 49.522 15.342 77.02 5.387 6.539 19.545 23.728 40.959 23.728 13.934 0 25.48-6.99 35.32-16.648 4.081-4.007 16.501-16.199 17.004-33.777.624-21.799-17.421-36.121-24.214-41.512z" fill="#6bc800"/><path d="m496.66 337.73c-10.374 11.096-22.898 19.58-38.2 19.58-21.41 0-35.57-17.19-40.96-23.73-22.65-27.5-18.27-63.02-15.34-77.02.66-3.13 3.11-5.57 6.25-6.2 3.92-.79 9.51-1.69 16.14-2.11-2.18 16.95-2.08 45.44 16.8 68.36 5.39 6.54 19.55 23.73 40.96 23.73 4.885 0 9.692-.897 14.35-2.61z" fill="#57a000"/><path d="m405.037 109.308c21.412 0 35.572-17.189 40.959-23.728 22.65-27.497 18.274-63.022 15.342-77.02-.656-3.13-3.112-5.568-6.247-6.201-14.206-2.865-50.253-7.143-78.164 15.011-6.793 5.392-24.838 19.714-24.214 41.511.503 17.579 12.923 29.771 17.005 33.779 9.811 9.63 21.347 16.648 35.319 16.648z" fill="#6bc800"/><path d="m446 85.58c-5.39 6.54-19.55 23.73-40.96 23.73-11.391 0-21.705-4.859-30.37-12.11 1.088.112 2.305.18 3.77.18 21.41 0 35.57-17.19 40.96-23.72 20.98-25.47 18.77-57.83 16-73.58 8.18.27 15.09 1.35 19.69 2.28 3.14.63 5.59 3.07 6.25 6.2 2.93 14 7.31 49.52-15.34 77.02z" fill="#57a000"/><path d="m117.782 51.34c-9.812-9.63-21.347-16.647-35.319-16.647-21.412 0-35.572 17.189-40.959 23.728-22.65 27.497-18.274 63.022-15.342 77.02.656 3.13 3.112 5.568 6.247 6.201 26.614 5.37 56.439 2.233 78.164-15.011 6.793-5.392 24.838-19.714 24.214-41.511-.503-17.58-12.923-29.772-17.005-33.78z" fill="#6bc800"/><g fill="#57a000"><path d="m113.39 47.27c-1.204-.134-2.849-.2-3.87-.2-21.41 0-35.57 17.19-40.96 23.73-20.78 25.23-18.81 57.21-16.08 73.13-8.34-.25-15.4-1.34-20.07-2.29-3.14-.63-5.59-3.07-6.25-6.2-2.93-14-7.31-49.52 15.34-77.02 5.39-6.54 19.55-23.73 40.96-23.73 11.567 0 22.068 5.003 30.93 12.58z"/><path d="m503.75 392c-4.421 0-8.009-3.587-8-8.017.067-31.808-16.409-62.502-44.9-80.298-3.748-2.34-4.889-7.275-2.548-11.022 2.339-3.748 7.276-4.89 11.022-2.548 33.656 21.017 52.503 57.138 52.426 93.901-.009 4.413-3.59 7.984-8 7.984z"/><path d="m359.75 144c-4.411 0-7.991-3.57-8-7.983-.078-36.852 18.843-72.93 52.426-93.901 3.746-2.341 8.684-1.2 11.022 2.548 2.341 3.747 1.2 8.683-2.548 11.022-28.532 17.821-44.967 48.538-44.9 80.298.009 4.42-3.57 8.016-8 8.016z"/><path d="m72.302 99.337c-2.341-3.747-1.2-8.683 2.548-11.022 28.532-17.821 44.967-48.538 44.9-80.298-.009-4.418 3.564-8.008 7.983-8.017 4.417-.009 8.008 3.563 8.017 7.983.078 36.852-18.843 72.93-52.426 93.901-3.722 2.327-8.668 1.224-11.022-2.547z"/></g><circle cx="127.755" cy="223.995" fill="#6bc800" r="8.005"/><circle cx="167.745" cy="72.005" fill="#57a000" r="8.005"/><circle cx="255.745" cy="127.995" fill="#57a000" r="8.005"/><path d="m455.745 200.01c-4.418 0-8.005-3.587-8.005-8.005s3.587-8.005 8.005-8.005 8.005 3.587 8.005 8.005-3.587 8.005-8.005 8.005zm7.995-8.005h.01zm-7.995 0h.01z" fill="#6bc800"/><path d="m343.755 400c-4.418 0-8.005-3.587-8.005-8.005s3.587-8.005 8.005-8.005 8.005 3.587 8.005 8.005-3.587 8.005-8.005 8.005zm7.995-8.005h.01zm-7.995 0h.01z" fill="#57a000"/><path d="m455.745 512c-4.418 0-8.005-3.587-8.005-8.005s3.587-8.005 8.005-8.005 8.005 3.587 8.005 8.005-3.587 8.005-8.005 8.005zm7.995-8.005h.01zm-7.995 0h.01z" fill="#6bc800"/></g></svg>
+<section class="block block-hero-big-image">
+  <div class="image has-lazyload" aria-hidden="true">
+      <img loading="lazy" alt="A decorative picture about ferris wheel" src="https://blocks.airwptheme.com/media/bruno-abatti-Xzer0SqKPEE-unsplash.jpeg">
+
+      <div class="container">
+        <div class="content">
+          <div class="content-wrapper">
+
+            <h1 id="content" class="has-text-gradient has-blue-text-gradient">
+              Air-light is a WordPress starter theme for developers
+            </h1>
+
+            <p>You are looking at thousands of hours of development work over a decade. Our aim is to build the greatest base for new WordPress websites out there. Remember, this is just a demo.</p>
+
+            <p>This demo has custom blocks enabled, but air-light doesn't ship with them. You'll need to build your blocks yourself.</p>
+
+            <ul class="multiple-buttons-wrapper">
+              <a class="button js-trigger" href="https://airwptheme.com">
+                Features
+              </a>
+
+              <a class="button js-trigger" href="https://blocks.airwptheme.com">
+                Block library
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <h1 class="heading-hero" id="content">
-      <span class="accent">
-        <?php echo esc_html_e( 'air-light ', 'air-light' ); ?><?php echo esc_html( AIR_LIGHT_VERSION ); ?>
-      </span>
-      <?php echo esc_html_e( 'a WordPress starter theme', 'air-light' ); ?>
-    </h1>
-  </div>
+<div class="block-name-tag" aria-hidden="true"><p>hero</p></div>
 </section>
 
-<section class="block has-light-bg">
+<section class="block block-demo-centered">
+  <div class="container">
+    <h2 class="has-text-gradient">Gutenberg blocks make the website easy to update</h2>
+    <p>Air-light has 100% Gutenberg support. Get magical with custom ACF + Gutenberg blocks.</p>
+    <p class="button-wrapper">
+      <a class="button no-external-link-indicator has-icon" href="https://docs.airwptheme.com/air-blocks/block-library">
+        Get started with block library
+      </a>
+    </p>
+  </div>
+
+  <div class="image has-lazyload">
+    <img loading="lazy" src="https://blocks.airwptheme.com/media/gutenberg.png" alt="Gutenberg-editor">
+  </div>
+
+<div class="block-name-tag" aria-hidden="true"><p>demo-centered</p></div>
+</section>
+
+<section class="block block-content-columns">
+  <div class="container">
+
+    <div class="col col-content">
+      <div class="wrapper">
+        <h2 class="has-text-gradient">Modular SCSS + CSS custom properties for everything</h2>
+        <p>We've got you covered with styles. Air-light is bloat-free! Just open _colors.scss and you are good to go. Did you know that Air-light production-ready CSS weights only 99KB without compression?</p>
+        <p class="button-wrapper">
+          <a class="button no-external-link-indicator has-icon" href="https://github.com/digitoimistodude/air-light">
+            <svg width="16" height="16" viewBox="0 0 1792 1792" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1664 896q0 251-146.5 451.5T1139 1625q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105T1386 856q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27T578 459.5 492 446q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5T484 1274q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5T128 896q0-209 103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"></path></svg>
+            GitHub
+          </a>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="col col-image" aria-hidden="true">
+      <div class="wrapper">
+        <ul class="vars">
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-brand-twitter: <span class="color" style="background-color: #1da1f2"></span> #1da1f2</li>
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-pattens-blue: <span class="color" style="background-color: #eaf1f8;"></span> #eaf1f8;</li>
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-science-blue: <span class="color" style="background-color: #0049d1;"></span> #0049d1;</li>
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-scropion: <span class="color" style="background-color: #5f5f5f;"></span> #5f5f5f;</li>
+          <li>&ndash;<span class="spacer"></span>&ndash;<span class="spacer"></span>color-valhalla: <span class="color" style="background-color: #2a2d3e;"></span> #2a2d3e;</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+<div class="block-name-tag" aria-hidden="true"><p>content-columns</p></div>
+</section>
+
+<section class="block block-components block-content-columns image-left">
+  <div class="container">
+
+    <div class="col col-content">
+      <div class="wrapper">
+        <h2 class="has-text-gradient">All your favorite components built-in</h2>
+        <p>Air-light comes with minimal styles for typography, navigation and form elements like buttons.</p>
+        <p class="button-wrapper">
+          <a class="button no-external-link-indicator has-icon" href="https://github.com/digitoimistodude/air-light">
+            <svg width="16" height="16" viewBox="0 0 1792 1792" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1664 896q0 251-146.5 451.5T1139 1625q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105T1386 856q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27T578 459.5 492 446q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5T484 1274q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5T128 896q0-209 103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"></path></svg>
+            GitHub
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="col col-image">
+      <div class="wrapper">
+
+          <div class="components">
+            <div class="component">
+              <span class="component-label">_button-size-large.scss</span>
+              <p><a class="button button-large" href="#">Primary button</a></p>
+              <p><a class="button button-large focus" href="#">Primary button</a></p>
+            </div>
+
+            <div class="component">
+              <span class="component-label">_button-size-large.scss</span>
+              <p><a class="button button-ghost button-large" href="#">Primary button</a></p>
+              <p><a class="button button-ghost button-large focus" href="#">Primary button</a></p>
+            </div>
+
+            <div class="component">
+              <span class="component-label">_button-style-ghost.scss</span>
+              <p><a class="button button-ghost" href="#">Primary button</a></p>
+              <p><a class="button button-ghost focus" href="#">Primary button</a></p>
+            </div>
+
+            <div class="component">
+              <span class="component-label">_button.scss</span>
+              <p><a class="button" href="#">Primary button</a></p>
+              <p><a class="button focus" href="#">Primary button</a></p>
+            </div>
+
+            <div class="component">
+              <span class="component-label">_button-size-small.scss</span>
+              <p><a class="button button-small" href="#">Tertiary button</a></p>
+              <p><a class="button button-small focus" href="#">Tertiary button</a></p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+<div class="block-name-tag"><p>content-columns</p></div></section>
+
+<section class="block block-content-columns image-right">
+  <div class="container">
+
+    <div class="col col-content">
+      <div class="wrapper">
+        <h2 class="has-text-gradient">Yes, traditional PHP is still a thing</h2>
+        <p>We don't use PHP templating languages, because we think everyone should be able to code good-ol' PHP. We keep Air-light consistent with WordPress Coding Standard.</p>
+        <p class="button-wrapper">
+          <a class="button no-external-link-indicator has-icon" href="https://github.com/digitoimistodude/air-light">
+            <svg width="16" height="16" viewBox="0 0 1792 1792" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1664 896q0 251-146.5 451.5T1139 1625q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105T1386 856q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27T578 459.5 492 446q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5T484 1274q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5T128 896q0-209 103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"></path></svg>
+            Get started now
+          </a>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="col col-image" aria-hidden="true">
+      <div class="wrapper">
+        <pre class="code">&lt;<span style="color:#e289bc;">main</span> <span style="color:#7ccb90;">class</span>="<span style="color:#c2b957">site-main</span>"&gt;
+  &lt;?php
+    the_content<span style="color:#fed600">()</span>;
+    air_edit_link<span style="color:#fed600">()</span>;
+  ?&gt;
+&lt;/<span style="color:#e289bc;">main</span>&gt;</pre>
+      </div>
+    </div>
+
+  </div>
+<div class="block-name-tag" aria-hidden="true"><p>content-columns</p></div>
+</section>
+
+<section class="block block-demo-centered">
+  <div class="container">
+    <h2 class="has-text-gradient">...and more. But still less.</h2>
+    <p>Air-light light weights only under 20 KB gzipped and is accessible-ready, gutenberg-ready and multilingual-ready.</p>
+    <p class="button-wrapper">
+      <a class="button no-external-link-indicator has-icon" href="https://docs.airwptheme.com/air-blocks/block-library">
+        Check out all the features
+      </a>
+    </p>
+  </div>
+
+<div class="block-name-tag" aria-hidden="true"><p>demo-centered</p></div>
+</section>
+
+<!-- Old demo -->
+<section class="block has-light-bg" style="display: none;">
   <article class="container article-content">
 
     <!-- wp:paragraph -->
@@ -57,42 +231,6 @@
     <!-- wp:heading {"level":6} -->
     <h6>This is a heading (H6)</h6>
     <!-- /wp:heading -->
-
-    <!-- wp:heading {"level":2} -->
-    <h2 class="heading-demo">Button components</h2>
-    <!-- /wp:heading -->
-
-    <div class="components">
-      <div class="component">
-        <span class="component-label">_button-size-large.scss</span>
-        <p><a class="button button-large" href="#">Primary button</a></p>
-        <p><a class="button button-large focus" href="#">Primary button</a></p>
-      </div>
-
-      <div class="component">
-        <span class="component-label">_button-size-large.scss</span>
-        <p><a class="button button-ghost button-large" href="#">Primary button</a></p>
-        <p><a class="button button-ghost button-large focus" href="#">Primary button</a></p>
-      </div>
-
-      <div class="component">
-        <span class="component-label">_button-style-ghost.scss</span>
-        <p><a class="button button-ghost" href="#">Primary button</a></p>
-        <p><a class="button button-ghost focus" href="#">Primary button</a></p>
-      </div>
-
-      <div class="component">
-        <span class="component-label">_button.scss</span>
-        <p><a class="button" href="#">Primary button</a></p>
-        <p><a class="button focus" href="#">Primary button</a></p>
-      </div>
-
-      <div class="component">
-        <span class="component-label">_button-size-small.scss</span>
-        <p><a class="button button-small" href="#">Tertiary button</a></p>
-        <p><a class="button button-small focus" href="#">Tertiary button</a></p>
-      </div>
-    </div>
 
     <!-- wp:heading {"level":2} -->
     <h2 class="heading-demo">Link components</h2>
@@ -161,7 +299,7 @@
           <th style="width: 140px;">Age</th>
         </tr>
       </thead>
-    
+
     <tbody style="display: block; max-width: 315px;">
       <tr>
         <td style="width: 140px;">Antero</td>
