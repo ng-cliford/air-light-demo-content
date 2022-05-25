@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-05-25 19:57:01
+ * @Last Modified time: 2022-05-25 22:32:29
  *
  * @package air-light
  */
@@ -28,11 +28,11 @@
             <p>This demo has custom blocks enabled, but air-light doesn't ship with them. You'll need to build your blocks yourself.</p>
 
             <ul class="multiple-buttons-wrapper">
-              <a class="button js-trigger" href="https://airwptheme.com">
+              <a class="button" href="https://airwptheme.com">
                 Features
               </a>
 
-              <a class="button js-trigger" href="https://blocks.airwptheme.com">
+              <a class="button" href="https://blocks.airwptheme.com">
                 Block library
               </a>
             </ul>
