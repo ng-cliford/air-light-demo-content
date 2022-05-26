@@ -1,6 +1,7 @@
 ### 2.0.3: 2022-05-26
 
 * Fix paddings on demo templates other than home
+* Add block name tags to single, blog and 404 views
 
 ### 2.0.2: 2022-05-26
 
