@@ -1,3 +1,7 @@
+### 2.0.3: 2022-05-26
+
+* Fix paddings on demo templates other than home
+
 ### 2.0.2: 2022-05-26
 
 * Fix placeholder for the upcoming Air-light v.9.0.1

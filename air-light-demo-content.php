@@ -87,6 +87,7 @@ function demo_css() { ?>
   --font-size-28: 28px;
   --color-background-nav-mobile-header: var(--color-black);
   --margin-body: 4.7rem;
+  --color-border-forms: #ccc;
 }
 
 /* Font */
@@ -134,7 +135,6 @@ body .site {
     padding-right: var(--margin-body);
   }
 }
-
 
 @media (max-width: 600px) {
   .site-header {
@@ -238,6 +238,16 @@ body .site {
 .menu-item-get-link > a:focus,
 .menu-item-get-link > a:hover {
   background-color: var(--color-valhalla);
+}
+
+/* Article view */
+.block-single .article-content {
+  padding-top: 0;
+}
+
+.comment-respond input,
+textarea {
+  border-radius: 0;
 }
 
 /* Block decorations from blocks.airwptheme.com */
@@ -643,53 +653,6 @@ body .component p {
 
 body .component p:last-child {
   margin-bottom: 0;
-}
-
-/* Fix article-content styles for demo pages without hero block */
-.block.block-blog .container,
-.block.block-single .article-content {
-  padding-top: calc( 5rem + var(--padding-block) );
-}
-
-/* Add article-content styles for demo pages
-   as they do not have Gutenberg blocks, only classic editor */
-body.page:not(.home) .site-main {
-  max-width: 100%;
-  padding-bottom: var(--padding-block);
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: calc( 5rem + var(--padding-block) );
-}
-
-/* Faux "Gutenberg-magic" */
-body.page:not(.home) .site-main > * {
-  line-height: var(--line-height-paragraphs-blog);
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-}
-
-@media (max-width: 840px) {
-  body.page:not(.home) .site-main > * {
-    padding-left: var(--padding-container-horizontal);
-    padding-right: var(--padding-container-horizontal);
-  }
-
-  body.page:not(.home) .site-main > .alignfull {
-    padding-left: var(--padding-container-horizontal);
-    padding-right: var(--padding-container-horizontal);
-    width: calc(100% - calc(var(--padding-container-horizontal) * 2));
-  }
-}
-
-body.page:not(.home) .site-main > ol:not([class]) li::before,
-body.page:not(.home) .site-main > ul:not([class]) li::before,
-body.page:not(.home) .site-main > ol:not([class]) li::marker,
-body.page:not(.home) .site-main > ul:not([class]) li::marker {
-  color: var(--color-link-text);
 }
 
 /* Mobile view styles */
