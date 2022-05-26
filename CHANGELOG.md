@@ -1,3 +1,7 @@
+### 2.0.4: 2022-05-26
+
+* Fix padding of the centered block without image
+
 ### 2.0.3: 2022-05-26
 
 * Fix paddings on demo templates other than home

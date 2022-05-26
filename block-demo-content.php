@@ -5,7 +5,7 @@
  * @Author: Timi Wahalahti
  * @Date:   2021-05-17 13:34:52
  * @Last Modified by:   Roni Laukkarinen
- * @Last Modified time: 2022-05-25 22:45:04
+ * @Last Modified time: 2022-05-26 12:23:17
  *
  * @package air-light
  */
@@ -40,7 +40,7 @@
 <div class="block-name-tag" aria-hidden="true"><p>hero</p></div>
 </section>
 
-<section class="block block-demo-centered">
+<section class="block block-demo-centered has-image">
   <div class="container">
     <h2 class="has-text-gradient">Gutenberg blocks make the website easy to update</h2>
     <p>Air-light has 100% Gutenberg support. Get magical with custom ACF + Gutenberg blocks.</p>
