@@ -1,3 +1,7 @@
+### [Unreleased]
+
+* Add max-width for demo blocks
+
 ### 2.0.4: 2022-05-26
 
 * Fix padding of the centered block without image

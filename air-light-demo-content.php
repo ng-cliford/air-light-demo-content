@@ -258,9 +258,12 @@ textarea {
   background-size: 1px 100%;
   border-bottom: 1px solid var(--color-cyan-bright);
   border-top: 1px solid var(--color-black);
+  justify-self: center;
   margin: var(--margin-body);
+  max-width: 1900px;
   overflow: visible;
   padding: var(--margin-body);
+  width: calc(100% - 3rem);
   z-index: 4;
 }
 
