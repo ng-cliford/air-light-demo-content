@@ -284,6 +284,12 @@ textarea {
 
 .block-error-404::before,
 .block-blog::before,
+.block-single::before {
+  display: inline-block;
+}
+
+.block-error-404::before,
+.block-blog::before,
 .block-single::before,
 .block-name-tag p {
   background-color: var(--color-black);
@@ -295,7 +301,6 @@ textarea {
   margin: 0;
   padding: 5px 8px;
   transform: translateX(1rem);
-  display: inline-block;
 }
 
 .block-single::before {
