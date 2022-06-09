@@ -1,3 +1,7 @@
+### 2.0.6: 2022-06-09
+
+* Fix breakpoints and paddings
+
 ### 2.0.5: 2022-06-09
 
 * Reponsive fixes for demo site

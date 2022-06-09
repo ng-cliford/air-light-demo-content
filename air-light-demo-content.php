@@ -278,13 +278,19 @@ textarea {
   max-width: 1900px;
   overflow: visible;
   padding: var(--margin-body);
-  width: calc(100% - 3rem);
   z-index: 4;
 }
 
 @media (max-width: 600px) {
   .block {
     --margin-body: 4.7rem var(--padding-container-horizontal);
+  }
+}
+
+@media (min-width: 1947px) {
+  .block {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
