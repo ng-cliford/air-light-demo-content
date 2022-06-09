@@ -5,11 +5,11 @@
  *
  * Plugin URI: https://github.com/digitoimistodude/air-light-demo-content
  * Description: Provides the demo CSS and Gutenberg block for Air-light starter theme as presented in airwptheme.com/demo.
- * Version: 1.0.6
+ * Version: 2.0.4
  * Author: Digitoimisto Dude Oy
  * Author URI: https://www.dude.fi
  * Requires at least: 5.0
- * Tested up to: 5.9.3
+ * Tested up to: 6.0.0
  * License: GPL-3.0+
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -87,6 +87,7 @@ function demo_css() { ?>
   --font-size-28: 28px;
   --color-background-nav-mobile-header: var(--color-black);
   --margin-body: 4.7rem;
+  --color-border-forms: #ccc;
 }
 
 /* Font */
@@ -104,7 +105,7 @@ body {
   background: var(--color-background-site);
 }
 
-.nav-container::after {
+.site-main::after {
   display: none !important;
 }
 
@@ -254,6 +255,16 @@ body .site {
   background-color: var(--color-valhalla);
 }
 
+/* Article view */
+.block-single .article-content {
+  padding-top: 0;
+}
+
+.comment-respond input,
+textarea {
+  border-radius: 0;
+}
+
 /* Block decorations from blocks.airwptheme.com */
 .block {
   background-image: linear-gradient(var(--color-black), var(--color-cyan-bright)), linear-gradient(var(--color-black), var(--color-cyan-bright));
@@ -262,9 +273,12 @@ body .site {
   background-size: 1px 100%;
   border-bottom: 1px solid var(--color-cyan-bright);
   border-top: 1px solid var(--color-black);
+  justify-self: center;
   margin: var(--margin-body);
+  max-width: 1900px;
   overflow: visible;
   padding: var(--margin-body);
+  width: calc(100% - 3rem);
   z-index: 4;
 }
 
@@ -274,6 +288,10 @@ body .site {
   }
 }
 
+/* Tags */
+.block-error-404::before,
+.block-blog::before,
+.block-single::before,
 .block-name-tag {
   left: 0;
   position: absolute;
@@ -282,6 +300,15 @@ body .site {
   z-index: 22;
 }
 
+.block-error-404::before,
+.block-blog::before,
+.block-single::before {
+  display: inline-block;
+}
+
+.block-error-404::before,
+.block-blog::before,
+.block-single::before,
 .block-name-tag p {
   background-color: var(--color-black);
   border-top-left-radius: 3px;
@@ -294,10 +321,25 @@ body .site {
   transform: translateX(1rem);
 }
 
+.block-single::before {
+  content: 'single';
+}
+
+.block-blog::before {
+  content: 'blog';
+}
+
+.block-error-404::before {
+  content: 'error-404';
+}
+
 /* Blocks */
 .block-demo-centered {
-  padding-bottom: 0;
   text-align: center;
+}
+
+.block-demo-centered.has-image {
+  padding-bottom: 0;
 }
 
 .block-demo-centered .has-lazyload {
@@ -308,6 +350,7 @@ body .site {
   object-position: top center;
 }
 
+.site-main .block-hero-big-image .container .button-wrapper .button,
 .site-main .block-demo-centered .container .button {
   font-size: var(--font-size-16);
   max-width: 100%;
@@ -656,53 +699,6 @@ body .component p {
 
 body .component p:last-child {
   margin-bottom: 0;
-}
-
-/* Fix article-content styles for demo pages without hero block */
-.block.block-blog .container,
-.block.block-single .article-content {
-  padding-top: calc( 5rem + var(--padding-block) );
-}
-
-/* Add article-content styles for demo pages
-   as they do not have Gutenberg blocks, only classic editor */
-body.page:not(.home) .site-main {
-  max-width: 100%;
-  padding-bottom: var(--padding-block);
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: calc( 5rem + var(--padding-block) );
-}
-
-/* Faux "Gutenberg-magic" */
-body.page:not(.home) .site-main > * {
-  line-height: var(--line-height-paragraphs-blog);
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-}
-
-@media (max-width: 840px) {
-  body.page:not(.home) .site-main > * {
-    padding-left: var(--padding-container-horizontal);
-    padding-right: var(--padding-container-horizontal);
-  }
-
-  body.page:not(.home) .site-main > .alignfull {
-    padding-left: var(--padding-container-horizontal);
-    padding-right: var(--padding-container-horizontal);
-    width: calc(100% - calc(var(--padding-container-horizontal) * 2));
-  }
-}
-
-body.page:not(.home) .site-main > ol:not([class]) li::before,
-body.page:not(.home) .site-main > ul:not([class]) li::before,
-body.page:not(.home) .site-main > ol:not([class]) li::marker,
-body.page:not(.home) .site-main > ul:not([class]) li::marker {
-  color: var(--color-link-text);
 }
 
 /* Mobile view styles */

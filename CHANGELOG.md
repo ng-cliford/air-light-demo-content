@@ -1,8 +1,27 @@
-### 2.0.1: 2022-06-09
+### 2.0.5: 2022-06-09
 
 * Reponsive fixes for demo site
 * Fix nav button on in-between resolutions
 * Disable air-light placeholder in demo page ("Build your website here! (Remove this bit in sass/layout/_site-header.scss)")
+* Add max-width for demo blocks
+
+### 2.0.4: 2022-05-26
+
+* Fix padding of the centered block without image
+
+### 2.0.3: 2022-05-26
+
+* Fix paddings on demo templates other than home
+* Add block name tags to single, blog and 404 views
+
+### 2.0.2: 2022-05-26
+
+* Fix placeholder for the upcoming Air-light v.9.0.1
+
+### 2.0.1: 2022-05-25
+
+* Fix typo in variable
+* Fix button links
 
 ### 2.0.0: 2022-05-25
 
@@ -10,6 +29,7 @@
 * Completely rewrite demo blocks
 * Completely rewrite new styles for demo site
 * Hide air-light "Start building here" placeholder on demo
+* Get ready for Air-light v9.0.0
 
 ### 1.0.6: 2022-05-12
 
