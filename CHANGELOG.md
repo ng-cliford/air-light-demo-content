@@ -1,3 +1,9 @@
+### 2.0.1: 2022-06-09
+
+* Reponsive fixes for demo site
+* Fix nav button on in-between resolutions
+* Disable air-light placeholder in demo page ("Build your website here! (Remove this bit in sass/layout/_site-header.scss)")
+
 ### 2.0.0: 2022-05-25
 
 * Add phpcs.xml

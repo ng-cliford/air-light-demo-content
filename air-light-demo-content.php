@@ -135,6 +135,12 @@ body .site {
   }
 }
 
+@media (min-width: 960px) and (max-width: 1100px) {
+  .site-header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 
 @media (max-width: 600px) {
   .site-header {
@@ -157,6 +163,7 @@ body .site {
   padding-right: 20px;
   padding-top: 8px;
   transition: all 200ms ease-in-out;
+  white-space: nowrap;
 }
 
 .button.has-icon {
@@ -210,6 +217,13 @@ body .site {
   order: 2;
   white-space: nowrap;
   width: 70px;
+}
+
+@media (min-width: 960px) and (max-width: 1140px) {
+  .site-branding::before,
+  .site-branding::after {
+    display: none;
+  }
 }
 
 .site-title > a > span,
@@ -723,6 +737,15 @@ body.page:not(.home) .site-main > ul:not([class]) li::marker {
     background: transparent url('data:image/svg+xml,%3Csvg%20class%3D%22logo-dude%22%20aria-hidden%3D%22true%22%20width%3D%22100%22%20height%3D%2221.45%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20x%3D%220%22%20y%3D%220%22%20viewBox%3D%220%200%202267.72%20453.54%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M950.26%20211.64c0%2037.66-12.7%20111.12-97.79%20111.12-85.61%200-98.4-73.47-98.4-111.12V5.23H590.91v217.92c0%20138.73%2097.78%20221.55%20261.55%20221.55%20163.39%200%20260.93-82.82%20260.93-221.55V5.23H950.26v206.41zM2264.41%20127.17V5.23h-505.2v439.48h505.2V322.76h-345.08v-48.71h286.91v-98.17h-286.91v-48.71zM317.21%205.23H3v439.48h314.21c108.81%200%20219.87-87.76%20219.87-219.74%200-132.83-111.06-219.74-219.87-219.74zm-39.84%20317.53H166.14v-195.4h111.23c57.58%200%2097.7%2045.79%2097.7%2097.61%200%2052.51-40.12%2097.79-97.7%2097.79zM1485.51%205.23H1171.3v439.48h314.21c108.81%200%20219.87-87.76%20219.87-219.74%200-132.83-111.06-219.74-219.87-219.74zm-39.84%20317.53h-111.23v-195.4h111.23c57.58%200%2097.7%2045.79%2097.7%2097.61%200%2052.51-40.12%2097.79-97.7%2097.79z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') no-repeat;
     background-size: contain !important;
   }
+}
+
+/* Disable placeholder in demo */
+.site-main {
+  display: unset;
+}
+
+.site-main::after {
+  display: none;
 }
 </style>
 <?php }
