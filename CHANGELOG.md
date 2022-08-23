@@ -1,3 +1,7 @@
+### 2.0.7: 2022-08-23
+
+* Fix image class for Air-light v9.0.8
+
 ### 2.0.6: 2022-06-09
 
 * Fix breakpoints and paddings

@@ -348,7 +348,7 @@ textarea {
   padding-bottom: 0;
 }
 
-.block-demo-centered .has-lazyload {
+.block-demo-centered .image-background {
   aspect-ratio: 16/6;
 }
 
