@@ -1,3 +1,7 @@
+### 2.0.8: 2022-08-25
+
+* Present accessibility features alongside new external-link.js
+
 ### 2.0.7: 2022-08-23
 
 * Fix image class for Air-light v9.0.8

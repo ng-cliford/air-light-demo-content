@@ -372,6 +372,41 @@ textarea {
   line-height: 1.22;
 }
 
+.block.block-accessibility.block-content-columns h2 {
+  font-size: clamp(3rem, 4vw, 5rem);
+}
+
+.block.block-accessibility.block-content-columns .col-image a {
+  font-size: clamp(.5rem, 3.4vw, 3rem);
+  font-family: 'Liga SFMono Nerd Font', monospace;
+}
+
+.block.block-accessibility.block-content-columns .col-image a > svg {
+  width: 24px;
+  height: 24px;
+  margin-left: .8rem;
+}
+
+.block.block-accessibility.block-content-columns .col-image {
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.block.block-accessibility.block-content-columns .col-image::after {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4962359943977591) 50%, rgba(255,255,255,0) 100%);
+  content: '';
+  height: 150px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.site-main .block > .container {
+  overflow: visible;
+}
+
 .site-main .block-content-columns .container,
 .editor-styles-wrapper .block-content-columns .container {
   display: grid;
@@ -421,6 +456,13 @@ textarea {
   max-width: 90%;
 }
 
+.pre-label {
+  display: block;
+  font-size: 14px;
+  opacity: .8;
+  margin-bottom: 2rem;
+}
+
 pre.code,
 .block-content-columns .vars {
   font-family: 'Liga SFMono Nerd Font', monospace;
@@ -429,10 +471,16 @@ pre.code,
   padding: 0;
 }
 
+pre.code.code-small {
+  font-size: clamp(.5rem, 3.4vw, 1.8rem);
+}
+
 .block-content-columns .vars li,
 pre.code {
   font-size: clamp(.5rem, 3.4vw, 3rem);
 }
+
+
 
 .block-content-columns .vars li {
   align-items: center;
